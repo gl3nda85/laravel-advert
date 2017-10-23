@@ -12,7 +12,7 @@
     },
     "autoload": {
       "psr-4": {
-        "Adumskis\\LaravelAdvert\\": "src/"
+        "Adumskis\\LaravelAdvert\\": "src"
       }
     },
     "extra": {
@@ -21,7 +21,7 @@
           "Adumskis\\LaravelAdvert\\AdvertServiceProvider"
         ],
         "aliases": {
-          "AdvMng": "dumskis\\LaravelAdvert\\AdvertFacade"
+          "AdvMng": "Adumskis\\LaravelAdvert\\AdvertFacade"
         }
       }
     }

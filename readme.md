@@ -70,23 +70,28 @@ It will return Advert object
 
 ### Usage in view
 ```php
-    {{ AdvMng::getHTML('type')
+    {{ AdvMng::getHTML('type') }}
 ```
 It will take the that with lowest viewed_at parameter. getHTML method allow add second (bool) parameter and if it's true then it will not check if advert was already taken.
 ```php
-    {{ AdvMng::getHTML('type', true)
+    {{ AdvMng::getHTML('type', true) }}
 ```
 
 ### Advert image storage
 ```php
-    'default_fileSystem' => 'public',
+    'default_file_system' => 'public',
 ```
 To use the inbuilt ability of laravels multiple filesystems change this to another public facing service provider such as s3.
 
 
-### ToDo
+### ToDo/Ideas
   - Add limit to advert views/clicks
   - Advert Campaigns
   - Advert Cost per click and cost per view?
+  - Video Adverts.
+  - Time of day adverts
+  - Multiple adverts per campaign
+  - Multiple images / videos per advert.
+  - Follow Ad galley guide and create different size ads for different regions of the page.
 
 [aspertRatio]:http://image.intervention.io/api/resize
